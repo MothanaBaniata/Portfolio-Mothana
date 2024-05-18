@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background-color: #0f1630;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    padding: 50px;
+}
+
+#logo {
+    max-height: 100px;
+    border-radius: 20px;
+}
+
+#btn {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #8b3bad, #c16d7b, #fa492c);
+    width: 250px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+#btn:hover {
+    size: 1.8em;
+    transform: scale(1.2);
+}
+
+.navigation a {
+    justify-content: space-around;
+    text-decoration: none;
+    color: #898e99;
+    font-size: 30px;
+    padding: 68px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    background-color: #0f1630;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    width: 100%;
+    align-items: center;
+}
+
+.image1 {
+    padding: 300px 100px 100px 200px;
+}
+
+#image1 {
+    display: inline-block;
+    width: 428px;
+    height: 358px;
+    border: solid 14px;
+    border-top-color: #C1BDBD;
+    border-right-color: #434552;
+    border-left-color: #434552;
+    border-bottom-color: #282727;
+    border-radius: 180px;
+    overflow: hidden;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#span2,
+#span3,
+#span4 {
+    font-size: 88px;
+}
+
+#span1 {
+    font-size: 24px;
+    padding-right: 450px;
+    color: #ffffff;
+}
+
+#span2 {
+    color: #9342a5;
+}
+
+#span3 {
+    color: #c66972;
+}
+
+#span4 {
+    color: #f8a749;
+}
+
+.main-article {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E4377;
+    padding-top: 75px;
+    width: 100%;
+    align-items: center;
+}
+
+.article1 {
+    height: auto;
+    width: 800px;
+    background-image: linear-gradient(to left, #0F1630, #3D4F93);
+    color: #898E99;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 200px;
+    border: solid 17px #09325B;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#text-1 {
+    font-family: font-family: "Poller One", serif;
+    font-weight:400;
+    font-size:40px;
+    font-style: normal;
+    color: white;
+}
+
+#text-2 {
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#text-3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+#text-4 {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#text-5 {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#image2 {
+    display: inline-block;
+    width: 428px;
+    height: 358px;
+    overflow: hidden;
+
+}
